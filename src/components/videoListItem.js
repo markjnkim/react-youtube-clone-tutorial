@@ -12,7 +12,7 @@ const VideoListItem = ({video, handleVideoSelect}) => {
           <img className="media-object" src={imageURL} />
         </div>
         <div className="media-body">
-          <div className="media-hearing">
+          <div className="media-heading">
           {videoTitle}
           </div>
         </div>
